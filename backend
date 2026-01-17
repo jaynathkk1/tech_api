@@ -1,0 +1,23 @@
+backend/
+├── models/
+│   ├── __init__.py
+│   ├── user_model.py
+│   ├── chat_model.py
+│   └── message_model.py
+├── services/
+│   ├── __init__.py
+│   ├── user_service.py
+│   ├── chat_service.py
+│   └── message_service.py
+├── routes/
+│   ├── __init__.py
+│   ├── auth_routes.py
+│   └── chat_routes.py
+├── database/
+│   ├── __init__.py
+│   └── connection.py
+├── auth/
+│   ├── __init__.py
+│   └── dependencies.py
+├── main.py
+└── requirements.txt
